@@ -61,29 +61,29 @@ import less_review_n_teire_humidifier from './10016923_teire_ear_sort_with_refe_
 // import Modal from "react-modal"
 
 
-const categories = ["イヤホン"] as const;
+const categories = ["イヤホン","加湿器"] as const;
 const products = {
-  "イヤホン": ["QCY-T1C完全ワイヤレスイヤホン第3/4世代"],
-  // "イヤホン": ["QCY-T1C完全ワイヤレスイヤホン第3/4世代","AAC進化版ワイヤレスイヤホン"],
-  // "加湿器": ["小型加湿器S08","エルズ ヒュミディファイアー"],
+  // "イヤホン": ["QCY-T1C完全ワイヤレスイヤホン第3/4世代"],
+  "イヤホン": ["QCY-T1C完全ワイヤレスイヤホン第3/4世代","AAC進化版ワイヤレスイヤホン"],
+  "加湿器": ["小型加湿器S08","エルズ ヒュミディファイアー"],
 } as const;
 
 const reviews = {
   "QCY-T1C完全ワイヤレスイヤホン第3/4世代": {
-    positive: "このイヤホンは、コストパフォーマンスに優れた製品です。音質はクリアで聴きやすいものの、低音や奥行きには欠けるとの意見もありますが、価格を考えれば満足度は高いです。接続も簡単で、毎日の通学時に重宝しています。充電の持ちも良好で、ハイテク機能が満載です。通話も問題なく行えるため、音楽以外の使用でも十分に使えます。また、購入時にポイントが付くことで、よりお得に買える点も評価されています。全体的に、性能は価格相応ですが、使い勝手の良さが際立つ製品です。",
-    negative: "音質自体は悪くないものの、いくつかの問題が報告されています。購入から一ヶ月以内に左耳の接続が不良となり、充電持続時間が最大でも2〜3時間に制限されました。さらに、充電器にセットしてもフル充電にならず、残量が20〜30%で止まる現象があり、これが初期不良とされて商品交換が行われました。また、価格に対して扱いやすさや使い勝手は良いものの、磁力が強く、取り扱いに苦労する点も指摘されています。音楽の音質は良いが、通話品質は普通という意見もありました。"
+    positive: "このイヤホンは値段以上のパフォーマンスを提供しており、音質も非常に良いと感じています。接続は簡単で、毎日通学に使用しています。充電の持ちも良いため、長時間の使用にも問題ありません。ハイテクな機能が豊富で、使い勝手が良いです。価格を考えると性能は十分で、通話も問題なくできます。ケースから外してすぐにBluetooth接続できる点も便利で、総合的に満足しています。おすすめの一品です。",
+    negative: "購入3ヶ月で片方のイヤホンが壊れ、完全に音が出なくなりました。接続自体は容易ですが、相手への音質が悪く、「え？なに？」と聞かれることがあります。当初は快適だったものの、1ヶ月も経たずに左耳の接続が不安定になり、充電時間も1時間程度しか持たない状態になりました。対処方法を試しても改善せず、最大2-3時間しか使用できませんでした。また、充電器にセットしてもフル充電にならず、残量は20-30%のままでした。初期不良により商品交換は迅速に行われましたが、価格相応の扱いやすさと使い勝手が良かった点を除けば、磁力が強すぎて外れやすいという問題も存在します。音楽の音質は良いですが、通話品質はまあまあのレベルです。"
   },
   "小型加湿器S08": {
-    positive: "この加湿器は、注文翌日に届き、ミストの量が多くて気持ち良いと好評です。サイズは小さいですが、持ち運びに便利で、音も静かなので仕事中でも使いやすいとのこと。値段も手頃で、特に一人での使用に適しています。細かいミストでしっかり加湿でき、デザインも可愛く、コンパクトなため狭い部屋や車での使用に向いています。ただし、加湿効果の実感には個人差があるようです。全体的に買って良かったという評価です。",
-    negative: "使用開始から数回でミストが出なくなり、コストパフォーマンスに疑問を感じていることが述べられています。加湿器の音は静かで、加湿量も多いため、寝室での使用には向いていると評価されていますが、加湿効果が弱く、ボタンを長時間押し続けてもミストが出ないことに不満を抱いています。値段相応とも感じている一方、故障さえしなければ長期間使用できることに期待を寄せています。全体的に、品質や耐久性に対する懸念が強調されています。"
+    positive: "注文翌日に商品が届き、迅速な対応に満足しています。ミストの量が多く、ひんやりとした感触で気持ち良いです。ペットボトル用加湿器と比較して音も静かで、加湿量も多いので、寝室での使用にも適しています。価格もお手頃で、一人暮らしや部屋での使用には最適な商品です。ミストは細かく、加湿効果もしっかりとしており、コンパクトでフォルムも可愛らしいデザインが魅力です。ただし、狭い部屋や車内では問題ないものの、大きな空間での加湿効果については少し微妙かもしれません。全体的に満足度が高く、乾燥対策に役立つ商品だと感じています。",
+    negative: "室内での使用時には問題が生じました。使い始めて数回でミストが出なくなり、対応策を試みても数分間ボタンを押し続ける必要がありました。また、加湿力は弱く、勢いも微弱です。小型で軽量なため移動が楽ですが、値段相応の品質であり、長期的な使用に耐えられるか不安があります。故障せずに数年使えることを期待していますが、現状では使い捨て感が否めません。"
   },
   "AAC進化版ワイヤレスイヤホン": {
-    positive: "このイヤホンは、音がこもらずクリアで、細かい音もしっかりと聞こえるため、音質に満足しています。また、リーズナブルな価格で使いやすく、非常に満足しています。",
-    negative: "このイヤホンは音質と音量調整の精度が高く、値段に見合った品質です。音の途切れもなく、安定しています。ただし、イヤーピースのサイズ展開は良いものの、本体の大きさも考慮する必要があると感じました。"
+    positive: "このイヤホンの音質は非常にクリアで、細かい音もしっかりと聞こえます。音がこもらず、全体的に高品質なサウンドを提供しています。価格もリーズナブルで、使い勝手が良い点も高く評価できます。",
+    negative: "このイヤホンは家での使用には適しており、音質も値段を考えると十分満足できるレベルです。しかし、歩行やランニング中に外の音が聞こえにくいという問題があり、安全面で不安があります。また、サイズ展開はS・M・Lとありますが、本体自体の大きさも考慮する必要があることが分かりました。"
   },
   "エルズ ヒュミディファイアー": {
-    positive: "この加湿器は手入れが簡単で、上から給水できる便利さが好評です。また、シンプルなデザインが部屋に自然に馴染みやすい点も評価されています。",
-    negative: "この加湿器はシンプルなデザインでインテリアにも馴染み、大容量でタッチパネルやミスト調節が可能な点が評価されていますが、使用開始時に給水タンクの不具合が発生し、本体下部から水が漏れて床が水浸しになるトラブルがありました。その後交換対応で問題は解消され、現在は安定して使用できています。"
+    positive: "この加湿器はお手入れが簡単で、給水も上部から簡単にできる設計になっています。デザインはシンプルで、部屋のインテリアにすんなりと馴染みます。使い勝手が良く、日常的なメンテナンスも負担にならない点が高く評価されています。",
+    negative: "この加湿器はシンプルでインテリアに馴染むデザインであり、水タンクもたっぷり入ります。しかし、使用開始直後に給水ができず、タンクを持ち上げると本体から大量の水が漏れ出し、床が水浸しになるという問題が発生しました。"
   },
   "Blender": {
     positive: "Efficient and easy to clean.",
@@ -333,7 +333,7 @@ export function ProductReviewsComponent() {
             <div className='flex flex-wrap justify-center'>
               <button
                className="rounded-full py-2 px-4 bg-red-500 text-white"
-               title="positive:228 negative:127"
+               title='positive:292 negative:62'
                onClick={()=>{
                buttonClick("音",true)
                Reviews(oto_p_review.reviews,oto_n_review.reviews)
@@ -347,7 +347,7 @@ export function ProductReviewsComponent() {
               
            <button
               className="rounded-full py-2 px-4 bg-red-500 text-white " 
-              title='positive:279 negative:51'
+              title='positive:315 negative:15'
               onClick={() => {
                 buttonClick("音質",true)
                 Reviews(onnshitsu_p_review.reviews,onnshitsu_n_review.reviews)
@@ -358,7 +358,7 @@ export function ProductReviewsComponent() {
 
             <button
               className="rounded-full py-2 px-4 bg-red-500  text-white" 
-              title='positive:160 negative:21'
+              title='positive:173 negative:8'
               onClick={() => {
                 buttonClick("値段",true)
                 Reviews(nedann_p_review.reviews,nedann_n_review.reviews)
@@ -369,7 +369,7 @@ export function ProductReviewsComponent() {
 
             <button
               className="rounded-full py-2 px-4 bg-red-500  text-white" 
-              title='positive:83 negative:15'
+              title='positive:91 negative:15'
               onClick={() => {
                 buttonClick("接続",true)
                 Reviews(setsuzoku_p_review.reviews,setsuzoku_n_review.reviews)
@@ -390,7 +390,7 @@ export function ProductReviewsComponent() {
             </button>
 
             <button
-              className="rounded-full py-2 px-4 bg-red-500  text-white" 
+              className="rounded-full py-2 px-4 bg-blue-500  text-white" 
               title='positive:22 negative:0'
               onClick={() => {
                 buttonClick("性能",true)
@@ -428,7 +428,7 @@ export function ProductReviewsComponent() {
 
                 <button
                 className="rounded-full py-2 px-4 bg-red-500  text-white"
-                title="positive:115 negative:17"
+                title="positive:118 negative:14"
                 onClick={()=>{
                 buttonClick("ミスト",true)
                 Reviews(misuto_p_review.reviews,misuto_n_review.reviews)
@@ -441,7 +441,7 @@ export function ProductReviewsComponent() {
 
                 <button
                 className="rounded-full py-2 px-4 bg-red-500 text-white"
-                title="positive:82 negative:35"
+                title="positive:102 negative:15"
                 onClick={()=>{
                 buttonClick("音",true)
                 Reviews(oto_p_hum_review.reviews,oto_n_hum_review.reviews)
@@ -454,7 +454,7 @@ export function ProductReviewsComponent() {
 
                 <button
                 className="rounded-full py-2 px-4 bg-red-500 text-white"
-                title="positive:34 negative:4"
+                title="positive:37 negative:1"
                 onClick={()=>{
                 buttonClick("値段",true)
                 Reviews(nedann_humidifier_p_review.reviews,nedann_humidifier_n_review.reviews)
@@ -467,7 +467,7 @@ export function ProductReviewsComponent() {
 
                 <button
                 className="rounded-full py-2 px-4 bg-red-500 text-white"
-                title="positive:32 negative:6"
+                title="positive:34 negative:4"
                 onClick={()=>{
                 buttonClick("加湿",true)
                 Reviews(kashitsu_p_review.reviews,kashitsu_n_review.reviews)
@@ -480,7 +480,7 @@ export function ProductReviewsComponent() {
 
                 <button
                 className="rounded-full py-2 px-4 bg-red-500 text-white"
-                title="positive:17 negative:9"
+                title="positive:19 negative:7"
                 onClick={()=>{
                 buttonClick("蒸気",true)
                 Reviews(joki_p_review.reviews,joki_n_review.reviews)
@@ -518,8 +518,8 @@ export function ProductReviewsComponent() {
                 </button>
 
                 <button
-                className="rounded-full py-2 px-4 bg-blue-500 text-white"
-                title="positive:5 negative:21"
+                className="rounded-full py-2 px-4 bg-red-500 text-white"
+                title="positive:20 negative:6"
                 onClick={()=>{
                 buttonClick("乾燥",true)
                 Reviews(kannsou_p_review.reviews,kannsou_n_review.reviews)
@@ -536,7 +536,7 @@ export function ProductReviewsComponent() {
             <div className='flex flex-wrap justify-center'>
               <button
                className="rounded-full py-2 px-4 bg-red-500 text-white"
-               title="positive:16 negative:9"
+               title="positive:21 negative:4"
                onClick={()=>{
                buttonClick("音",true)
                Reviews(less_review_p_oto_earphone.reviews,less_review_n_oto_earphone.reviews)
@@ -550,7 +550,7 @@ export function ProductReviewsComponent() {
               
            <button
               className="rounded-full py-2 px-4 bg-red-500 text-white " 
-              title='positive:22 negative:2'
+              title='positive:24 negative:0'
               onClick={() => {
                 buttonClick("音質",true)
                 Reviews(less_review_p_onnshitsu_earphone.reviews,less_review_n_onnshitsu_earphone.reviews)
@@ -561,7 +561,7 @@ export function ProductReviewsComponent() {
 
             <button
               className="rounded-full py-2 px-4 bg-red-500  text-white" 
-              title='positive:9 negative:1'
+              title='positive:10 negative:0'
               onClick={() => {
                 buttonClick("値段",true)
                 Reviews(less_review_p_nedann_earphone.reviews,less_review_n_nedann_earphone.reviews)
@@ -609,8 +609,8 @@ export function ProductReviewsComponent() {
             </button>
 
             <button
-              className="rounded-full py-2 px-4 bg-blue-500  text-white" 
-              title='positive:0 negative:2'
+              className="rounded-full py-2 px-4 bg-red-500  text-white" 
+              title='positive:2 negative:0'
               onClick={() => {
                 buttonClick("値段",true)
                 Reviews(less_review_p_nedann_humidifier.reviews,less_review_n_nedann_humidifier.reviews)
@@ -620,8 +620,8 @@ export function ProductReviewsComponent() {
             </button>
 
             <button
-              className="rounded-full py-2 px-4 border boder-while" 
-              title='positive:2 negative:2'
+              className="rounded-full py-2 px-4 border bg-red-500 text-white" 
+              title='positive:4 negative:0'
               onClick={() => {
                 buttonClick("部屋",true)
                 Reviews(less_review_p_heya_humidifier.reviews,less_review_n_heya_humidifier.reviews)
