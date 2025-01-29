@@ -311,7 +311,7 @@ export function ProductReviewsComponent() {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <ThumbsDown className="mr-2 text-blue-500" />
-                  ネガティブレビュー要約
+                  ネガティブなレビュー要約
                 </CardTitle>
               </CardHeader>
               <CardContent>
